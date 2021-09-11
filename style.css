@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 63px;
+    color:white;
+    text-decoration: underline;
+}
+body{
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: linear-gradient(to bottom right,black, aqua);
+}
+.container{
+    height: 100%;
+    padding: 70px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+   text-align: center;
+   padding: 60px;
+}
+button{
+    background: rgb(93, 233, 210);
+    outline: none;
+    border: none;
+    border-color: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 18px;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aqua;
+}
+button:active{
+    padding: 25px;
+}
+
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+}
+.grid div{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-size: x-large;
+
+}
+.exchange{
+    background-color: red;
+}   
